@@ -56,7 +56,8 @@ class Owner
   end 
   
   def sell_pets
-    binding.pry
-    @pets.collect {|key, value| [key][value] = "nervous"} 
+    
+    @pets.collect {|key, value| binding.pry
+    [key][value] = "nervous"} 
   end 
 end
